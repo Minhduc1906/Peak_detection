@@ -1,0 +1,16 @@
+Scenario,TCP flows (rate limited),TCP flows (unlimited),CBR traffic,Stochastic traffic,Total scenarios,Runs,Repeats,Completed,Goal Description
+Netflix SD streaming,1@5 Mb/s/flow,0 TCP flow,-,Video(300;600;g;0.1),2,3,2,0,Stream standard definition Netflix content
+Netflix HD streaming,1@10 Mb/s/flow,0 TCP flow,-,Video(800;1200;g;0.1),2,3,2,0,Stream high definition (1080p) Netflix content
+Netflix 4K streaming,1@25 Mb/s/flow,0 TCP flow,-,Video(1500;3000;g;0.1),2,3,2,0,Stream 4K Ultra HD Netflix content
+Netflix HDR streaming,1@20 Mb/s/flow,0 TCP flow,-,Video(1200;2500;g;0.1),2,3,2,0,Stream HDR Netflix content with higher color depth
+YouTube SD streaming,1@4 Mb/s/flow,0 TCP flow,-,Video(250;500;g;0.1),2,3,2,0,Stream standard definition YouTube videos
+YouTube HD streaming,1@8 Mb/s/flow,0 TCP flow,-,Video(600;1000;g;0.1),2,3,2,0,Stream high definition (1080p) YouTube videos
+YouTube 4K streaming,1@20 Mb/s/flow,0 TCP flow,-,Video(1200;2800;g;0.1),2,3,2,0,Stream 4K Ultra HD YouTube videos
+YouTube Live streaming,1@12 Mb/s/flow,0 TCP flow,-,Video(800;1500;g;0.15),2,3,2,0,Stream YouTube Live content with higher variability
+Netflix + YouTube HD,2@10 Mb/s/flow,0 TCP flow,-,Video(800;1200;g;0.1)+Video(600;1000;g;0.1),2,3,2,0,Stream Netflix and YouTube simultaneously in HD
+Netflix 4K + YouTube HD,2@18 Mb/s/flow,0 TCP flow,-,Video(1500;3000;g;0.1)+Video(600;1000;g;0.1),2,3,2,0,Stream Netflix in 4K while watching YouTube in HD
+Netflix HD + YouTube 4K,2@16 Mb/s/flow,0 TCP flow,-,Video(800;1200;g;0.1)+Video(1200;2800;g;0.1),2,3,2,0,Stream Netflix in HD while watching YouTube in 4K
+Dual Netflix HD streams,2@10 Mb/s/flow,0 TCP flow,-,Video(800;1200;g;0.1)+Video(800;1200;g;0.1),2,3,2,0,Two simultaneous Netflix HD streams
+Dual YouTube HD streams,2@8 Mb/s/flow,0 TCP flow,-,Video(600;1000;g;0.1)+Video(600;1000;g;0.1),2,3,2,0,Two simultaneous YouTube HD streams
+Multi-quality Netflix,2@15 Mb/s/flow,0 TCP flow,-,Video(800;1200;g;0.1)+Video(1500;3000;g;0.1),2,3,2,0,Stream Netflix in both HD and 4K simultaneously
+Multi-quality YouTube,2@15 Mb/s/flow,0 TCP flow,-,Video(600;1000;g;0.1)+Video(1200;2800;g;0.1),2,3,2,0,Stream YouTube in both HD and 4K simultaneously

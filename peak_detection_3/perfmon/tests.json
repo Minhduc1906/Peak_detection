@@ -1,0 +1,29 @@
+[
+	{
+		"testname": "iperf TCP-reno download",
+		"host1": {
+			"name": "client1-mgmt",
+			"cmd": "iperf3 -c server1 -C reno -R -t 60",
+			"persist": false,
+			"start_time": 0
+		}
+	},
+	{
+		"testname": "iperf UDP download",
+		"host1": {
+			"name": "client2-mgmt",
+			"cmd": "iperf3 -c server2 -R -u -b 90M -t 60",
+			"persist": false,
+			"start_time": 20
+		}
+	},
+	{
+		"testname": "iperf UDP download #2",
+		"host1": {
+			"name": "client3-mgmt",
+			"cmd": "iperf3 -c server3 -R -u -b 30M -t 60",
+			"persist": false,
+			"start_time": 40
+		}
+	}
+]

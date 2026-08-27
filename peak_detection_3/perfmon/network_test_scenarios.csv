@@ -1,0 +1,15 @@
+Scenario,TCP flows (rate limited),CBR traffic,Stochastic traffic,Total scenarios,Runs,Repeats,Completed,Goal Description
+Mixed Household - Evening Peak,2@8 Mb/s + 1@25 Mb/s,10 Mb/s CBR UDP,Gaming(24;512;1.5) + VoIP(120;160;0.1),1,1,3,0,Family evening usage: HD + 4K streaming + gaming + voice chat
+Remote Work + Entertainment,1@8 Mb/s + 2@4 Mb/s,5 Mb/s CBR UDP,VoIP(120;160;0.1) + Video(512;1024;normal;0.8),1,1,3,0,Work meetings + background downloads + streaming
+Gaming Tournament,1@5 Mb/s,15 Mb/s CBR UDP,Gaming(24;512;1.5) + Gaming(64;1024;2.0) + VoIP(120;160;0.1),1,1,3,0,Multiple gamers with voice chat + light stream
+Home Office Multiple Calls,2@8 Mb/s + 1@4 Mb/s,20 Mb/s CBR UDP,VoIP(120;160;0.1) + VoIP(120;160;0.1) + Video(512;1024;normal;0.8),1,1,3,0,Multiple video conferences with screen sharing
+Mixed Quality Streaming,1@3 Mb/s + 1@8 Mb/s + 1@25 Mb/s,5 Mb/s CBR UDP,VoIP(120;160;0.1),1,1,3,0,Low/HD/4K streams simultaneously with background traffic
+School From Home,3@4 Mb/s + 1@8 Mb/s,10 Mb/s CBR UDP,VoIP(120;160;0.1) + VoIP(120;160;0.1) + Video(512;1024;normal;0.8),1,1,3,0,Multiple video lessons + streaming + downloads
+Competitive vs Casual Gaming,2@8 Mb/s,20 Mb/s CBR UDP,Gaming(64;1024;2.0) + Gaming(24;512;1.5),1,1,3,0,FPS competitive game + casual game with streaming
+Streaming Party,3@8 Mb/s + 1@25 Mb/s,7 Mb/s CBR UDP,VoIP(120;160;0.1),1,1,3,0,Multiple HD/4K streams at different qualities + voice chat
+Heavy Gaming + Streaming,1@25 Mb/s,12 Mb/s CBR UDP,Gaming(64;1024;2.0) + Gaming(24;512;1.5),1,1,3,0,4K stream with multiple gaming sessions
+Content Creator Setup,2@25 Mb/s,15 Mb/s CBR UDP,VoIP(120;160;0.1) + Video(1024;4096;normal;1.2),1,1,3,0,Streaming + uploading + video calls
+Smart Home Peak,3@8 Mb/s + 1@15 Mb/s,15 Mb/s CBR UDP,Video(256;512;normal;0.5) + VoIP(120;160;0.1),1,1,3,0,IoT devices + security cameras + streaming
+Ultra Heavy Mixed Use,2@25 Mb/s + 2@8 Mb/s,20 Mb/s CBR UDP,Gaming(64;1024;2.0) + VoIP(120;160;0.1) + Video(1024;4096;normal;1.2),1,1,3,0,4K/HD streams + gaming + video calls
+Gamer Household,2@15 Mb/s + 1@8 Mb/s,10 Mb/s CBR UDP,Gaming(64;1024;2.0) + Gaming(24;512;1.5) + Gaming(24;512;1.5),1,1,3,0,Multiple gaming sessions + streaming
+Mixed Streaming Services,2@25 Mb/s + 2@8 Mb/s,5 Mb/s CBR UDP,VoIP(120;160;0.1),1,1,3,0,Various streaming platforms with different encoding

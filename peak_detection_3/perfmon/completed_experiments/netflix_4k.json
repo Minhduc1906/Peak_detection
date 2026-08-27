@@ -1,0 +1,38 @@
+[
+    {
+      "testname": "Netflix 4K (2160p) - Initial Phase",
+      "host2": {
+        "name": "server1-mgmt",
+        "cmd": "/usr/bin/ITGSend -T UDP -a client1 -V 1 1.2 -c 512 -t 60000",
+        "persist": false,
+        "start_time": 0
+      }
+    },
+    {
+      "testname": "Netflix 4K (2160p) - Burst Phase",
+      "host2": {
+        "name": "server1-mgmt",
+        "cmd": "/usr/bin/ITGSend -T UDP -a client1 -U 21000 23000 -c 512 -j 0 -B U 140 750 U 0.1 150 -t 5700",
+        "persist": false,
+        "start_time": 0
+      }
+    },
+    {
+      "testname": "Netflix 4K (2160p) - High Bitrate",
+      "host2": {
+        "name": "server1-mgmt",
+        "cmd": "/usr/bin/ITGSend -T UDP -a client1 -O 7000 -c 512 -t 45000 -d 15000 -B U 50 400 C 5000",
+        "persist": false,
+        "start_time": 0
+      }
+    },
+    {
+      "testname": "Netflix 4K (2160p) - Medium Bitrate",
+      "host2": {
+        "name": "server1-mgmt",
+        "cmd": "/usr/bin/ITGSend -T UDP -a client1 -O 5000 -c 512 -t 45000 -d 15000 -B U 50 400 C 5000",
+        "persist": false,
+        "start_time": 0
+      }
+    }
+  ]

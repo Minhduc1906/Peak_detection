@@ -1,0 +1,24 @@
+UTS contributors
+----------------
+
+Mininet model, traffic generation, capture and analysis scripts:
+
+Daniel R. Franklin <Daniel.Franklin@uts.edu.au>
+Abrar Yusuf <Abrar.I.Yusuf@student.uts.edu.au>
+Duc Pham <Duc.Pham@uts.edu.au>
+
+Code to dump d2 map of network:
+
+Leigh Finch <Leigh.Finch@student.uts.edu.au>
+
+Analysis scripts and methods:
+
+Andrew Vo <hiep.k.vo@student.uts.edu.au>
+Duy Hai Tong <duyhai.tong@student.uts.edu.au>
+
+NBN contributors
+----------------
+
+Traffic generating python scripts:
+
+Max Downey <maxdowney@nbnco.com.au>

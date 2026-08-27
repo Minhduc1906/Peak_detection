@@ -1,0 +1,11 @@
+test_name,num_streams,quality,num_clients,mixed,duration,fhd_pct,uhd_pct,hdr_pct,target_network
+50mbps_fhd_normal,7,FHD,10,no,300,,,,50Mbps
+50mbps_fhd_limit,7,FHD,10,no,300,,,,50Mbps
+50mbps_mixed,5,FHD,8,yes,300,60,30,10,50Mbps
+50mbps_4k,3,UHD,5,no,300,,,,50Mbps
+50mbps_overload,4,UHD,5,no,300,,,,50Mbps
+100mbps_fhd,13,FHD,15,no,300,,,,100Mbps
+100mbps_4k,6,UHD,8,no,300,,,,100Mbps
+100mbps_mixed,10,FHD,12,yes,300,50,30,20,100Mbps
+100mbps_hdr,5,HDR,6,no,300,,,,100Mbps
+100mbps_overload,12,UHD,15,yes,300,40,40,20,100Mbps

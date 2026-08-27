@@ -1,0 +1,2 @@
+Scenario,Mode,Households,Clients per household,First household start (s),Household start interval (s),Client 1 Scenario,Client 2 Scenario,Server pool size,Iperf ports per server,Source scenario CSV,Goal Description
+32-household uniform congestion baseline,household_profiles,32,2,5,3,HD streaming + download,Work-from-home setup,16,8,Experiments_dynamic_v1.csv,All 32 households are identical; client 1 runs HD streaming plus download and client 2 runs work-from-home traffic to provide a uniform large-scale congestion baseline.

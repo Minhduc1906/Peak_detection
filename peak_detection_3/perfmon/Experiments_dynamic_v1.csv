@@ -1,0 +1,11 @@
+Scenario,TCP flows (rate limited),TCP flows (unlimited),CBR traffic,Stochastic traffic,Total scenarios,Runs,Repeats,Completed,Goal Description
+HD streaming + download,2@15 Mb/s/flow,0 TCP flow,20 Mb/s CBR UDP,Video(800;1200;g;0.1),2,3,2,0,Stream 1080p video while downloading a 1GB file
+Dual game sessions,3@12 Mb/s/flow,0 TCP flow,15 Mb/s CBR UDP,Gaming(32;64;0.001)+Gaming(32;64;0.001),2,3,2,0,Maintain two simultaneous gaming sessions with background update
+Family streaming,2@10 Mb/s/flow,0 TCP flow,25 Mb/s CBR UDP,Video(800;1200;g;0.1)+Video(500;800;g;0.1),2,3,2,0,Two family members streaming video while browsing
+Work-from-home setup,3@10 Mb/s/flow,0 TCP flow,18 Mb/s CBR UDP,VoIP(120;160;0.0025)+Video(800;1200;g;0.1),2,3,2,0,Video conference with screensharing while downloading work files
+Evening entertainment,2@12 Mb/s/flow,0 TCP flow,22 Mb/s CBR UDP,Video(1000;1400;g;0.1)+Gaming(32;64;0.001),2,3,2,0,Stream 4K video while playing online game
+Small business usage,3@8 Mb/s/flow,2 TCP flows,15 Mb/s CBR UDP,VoIP(120;160;0.0025)+VoIP(120;160;0.0025),2,3,2,0,Multiple VoIP calls while accessing cloud services
+Media enthusiast,2@15 Mb/s/flow,0 TCP flow,20 Mb/s CBR UDP,Video(800;1200;g;0.1),2,3,2,0,Download media files while streaming content
+Home security + streaming,2@10 Mb/s/flow,0 TCP flow,18 Mb/s CBR UDP,Video(500;800;g;0.1)+Video(500;800;g;0.1),2,3,2,0,Security camera feeds plus media streaming
+Remote education,3@12 Mb/s/flow,0 TCP flow,20 Mb/s CBR UDP,Video(800;1200;g;0.1)+VoIP(120;160;0.0025),2,3,2,0,Online class with video while downloading course materials
+Weekend usage,3@10 Mb/s/flow,2 TCP flows,18 Mb/s CBR UDP,Video(800;1200;g;0.1)+Gaming(32;64;0.001),2,3,2,0,"Multiple family activities: streaming, gaming, and browsing"
